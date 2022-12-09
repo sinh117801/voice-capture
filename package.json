@@ -4,7 +4,9 @@
   "description": "Voice capture on browser",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/sinh117801/voice-capture/issues"
   },
-  "homepage": "https://github.com/sinh117801/voice-capture#readme"
+  "homepage": "https://github.com/sinh117801/voice-capture#readme",
+  "devDependencies": {
+    "@vitest/coverage-c8": "^0.25.6",
+    "tsup": "^6.5.0",
+    "typescript": "^4.9.4",
+    "vitest": "^0.25.6"
+  }
 }
