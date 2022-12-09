@@ -1,0 +1,19 @@
+{
+  "name": "voice-capture",
+  "version": "1.0.0",
+  "description": "Voice capture on browser",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinh117801/voice-capture.git"
+  },
+  "author": "Sinh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sinh117801/voice-capture/issues"
+  },
+  "homepage": "https://github.com/sinh117801/voice-capture#readme"
+}
